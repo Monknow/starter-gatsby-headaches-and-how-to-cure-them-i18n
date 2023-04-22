@@ -16,6 +16,8 @@ const IndexPage = ({data}) => {
 	);
 };
 
+export const Head = () => <title>Welcome to my English cooking blog!</title>;
+
 export const indexQuery = graphql`
 	query IndexQuery {
 		allMarkdownRemark {
